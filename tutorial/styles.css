@@ -1,5 +1,62 @@
-header{
-    background: black;
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header {
+    background: black; 
+    background-image: url("images/cookies.jpg");
+    background-size: 100%; 
+    background-position: center;
+    height: 400px;
+    padding: 20px;
+    text-align: center;  
+}
+header a {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 40px;
+}
+header .logo a{
+background-image: url("images/logo.png");
+background-size: 150px;
+background-repeat: no-repeat;
+display: inline-block;
+height: 80px;
+position: relative;
+text-indent: -999999999999px;
+top:-30px;
+width: 150px;
+}
+
+
+ul {
+    list-style: none;
+}
+
+li {
+   display: inline-block;
+   margin: 20px;
+}
+
+.features {
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.column {
+    background:chocolate;
+    margin: auto;
+    width: 100px;
+}
+
+footer {
+    background: black;
 }
