@@ -40,6 +40,10 @@ header .logo a {
     text-outline: -30px;
 }
 
+header .mobile {
+    display: none;
+}
+
 nav ul {
     margin:0;
     padding:0;
@@ -51,6 +55,28 @@ nav li {
     margin-right:20px;
 }
 
+/*RESPONSIVE RULES*/
+
+@media screen and (max-width: 726px){
+    header {
+        height: 250px;
+        background-position: 0 - 30px;
+    }
+    header .mobile {
+        display: inline-block;
+    }
+    header .desktop {
+        display: none;
+    }
+}
+ @media screen and (max-width: 500px) {
+    header {
+        height: 200px;
+        background-position: 0 -0px;
+    }
+ }
+
+
 /* FEATURES */
 
 .features {
@@ -59,6 +85,7 @@ nav li {
     padding:20px;
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .features figure {
@@ -84,3 +111,4 @@ footer{
     padding: 10px 20px;
     text-align: center;
 }
+
