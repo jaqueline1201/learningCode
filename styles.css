@@ -1,0 +1,86 @@
+body {
+    background: rgb(58,58,58);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+/* HEADER */
+
+header {
+    background: black;
+    background-image: url("images/cookie.jpg");
+    background-size: 100%;
+    background-position: center;
+    padding:20px;
+    height: 400px;
+    text-align: center;
+}
+
+header a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+header a:hover{
+    text-decoration: underline;
+}
+
+header .logo a {
+    background-image: url("images/logo.png");
+    background-size: 300px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 150px;
+    position: relative;
+    width: 300px;
+    text-indent: -9999999999999px;
+    text-outline: -30px;
+}
+
+nav ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+nav li {
+    display:inline-block;
+    margin-right:20px;
+}
+
+/* FEATURES */
+
+.features {
+    background: white;
+    color:gray;
+    padding:20px;
+    display:flex;
+    flex-direction: row;
+}
+
+.features figure {
+    margin:auto;
+    text-align: center;
+    width:200px;
+    text-transform: uppercase;
+}
+
+.features figure img {
+    border: 1px solid white;
+    border-radius: 50%; 
+    box-shadow:gray 0 0 10px;
+    width: 200px;
+}
+
+/* FOOTER */
+
+footer{
+    background:black;
+    color: gray;
+    font-size: 12px;
+    padding: 10px 20px;
+    text-align: center;
+}
